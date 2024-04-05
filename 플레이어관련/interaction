@@ -60,12 +60,12 @@ public class cshGrab : MonoBehaviour
         }
     }
     private RaycastHit CastRay(){
-        // 마우스 커서가 가리키는 카메라가 랜더링하는 가장 먼곳의 위치 ScreenPoint Vector3 position
+        // 마우스 커서가 가리키는 카메라가 랜더링하는 가장 먼곳의 위치
         Vector3 screenMousePosFar = new Vector3(
             Input.mousePosition.x,
             Input.mousePosition.y,
             Camera.main.farClipPlane);
-        // 마우스 커서가 가리키는 카메라가 랜더링하는 가장 가까운곳의 위치 ScreenPoint Vector3 position
+        // 마우스 커서가 가리키는 카메라가 랜더링하는 가장 가까운곳의 위치
         Vector3 screenMousePosNear = new Vector3(
             Input.mousePosition.x,
             Input.mousePosition.y,
