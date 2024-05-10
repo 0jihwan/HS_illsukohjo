@@ -13,6 +13,12 @@ public class cshPlayerMove : MonoBehaviour
         float moveY = Input.GetAxis("Vertical") * speed * Time.deltaTime;
 
         // 현재 위치에 이동 벡터를 더하여 새 위치를 계산합니다.
-        transform.position += new Vector3(moveX, 0, moveY);
+        //transform.position += new Vector3(moveX, 0, moveY);
+
+        Vector3 temp = transform.position;
+        temp.x += moveX;
+        temp.z += moveY;
+
+        transform.position = temp;
     }
 }

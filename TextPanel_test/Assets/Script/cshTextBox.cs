@@ -51,16 +51,7 @@ public class cshTextBox : MonoBehaviour
 
             printingCoroutine = null;
 
-            if (currentMessageIndex + 1 < messages.Length)
-            {
-                //currentMessageIndex++; // 다음 메시지로 이동
-            }
-            /*
-            else if (currentMessageIndex + 1 >= messages.Length)
-            {
-                TextBox.SetActive(false);
-            }
-            */
+
             
         }
         else    // 텍스트가 이미 다 출력된 경우
@@ -76,7 +67,6 @@ public class cshTextBox : MonoBehaviour
                 TextBox.SetActive(false); // 모든 메시지 출력 후 텍스트박스 비활성화
             }
         }
-        //currentMessageIndex++;
     }
 
     IEnumerator TextPrintCoroutine(string message)
