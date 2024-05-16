@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Katana3
+  - Katana4
+  - Blood
+  - Katana2
+  - NemoLogicPlaque
+  - Katana
+  - TiltWall
+  - TiltBtn2
+  - TiltPlayer
+  - TiltBtn1
+  - Hole
+  - TiltBtn3
+  - TiltBtn5
+  - TiltBtn4
   layers:
   - Default
   - TransparentFX
@@ -11,7 +25,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - TiltWall
   - 
   - 
   - 
