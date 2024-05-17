@@ -9,7 +9,7 @@ public class TiltPlayerController : MonoBehaviour
     tiltPlayer tiltPlayer;
     GameObject hole;
     public TMP_Text clickNum;
-    int count1, count2, count3, count4 = 0;
+    int count = 0;
     Vector2 rePos;
 
     public bool currentSelect = false;
@@ -28,7 +28,6 @@ public class TiltPlayerController : MonoBehaviour
     {
         if (currentSelect)
         {
-            Debug.Log(currentSelect);
             return;
         }
         if (gameObject.name == "TiltLeft")
@@ -38,8 +37,8 @@ public class TiltPlayerController : MonoBehaviour
           
             tiltPlayer.isMoving = true;
             tiltPlayer.moveDirection = new Vector2(-0.03f, 0f);
-            count1++;
-            clickNum.text = count1.ToString();
+            count++;
+            clickNum.text = count.ToString();
 
             currentSelect = true;
 
@@ -64,8 +63,8 @@ public class TiltPlayerController : MonoBehaviour
 
             tiltPlayer.isMoving = true;
             tiltPlayer.moveDirection = new Vector2(0f, 0.025f);
-            count2++;
-            clickNum.text = count2.ToString();
+            count++;
+            clickNum.text = count.ToString();
 
             currentSelect = true;
 
@@ -90,8 +89,8 @@ public class TiltPlayerController : MonoBehaviour
 
             tiltPlayer.isMoving = true;
             tiltPlayer.moveDirection = new Vector2(0f, -0.025f);
-            count3++;
-            clickNum.text = count3.ToString();
+            count++;
+            clickNum.text = count.ToString();
 
             currentSelect = true;
 
@@ -115,8 +114,8 @@ public class TiltPlayerController : MonoBehaviour
 
             tiltPlayer.isMoving = true;
             tiltPlayer.moveDirection = new Vector2(0.03f, 0f);
-            count4++;
-            clickNum.text = count4.ToString();
+            count++;
+            clickNum.text = count.ToString();
 
             currentSelect = true;
 
@@ -147,18 +146,26 @@ public class TiltPlayerController : MonoBehaviour
             tiltBtn = GameObject.Find("TiltUp");
             tiltPC = tiltBtn.GetComponent<TiltPlayerController>();
             tiltPC.currentSelect = false;
+            tiltPC.count = 0;
+            tiltPC.clickNum.text = tiltPC.count.ToString();
 
             tiltBtn = GameObject.Find("TiltDown");
             tiltPC = tiltBtn.GetComponent<TiltPlayerController>();
             tiltPC.currentSelect = false;
+            tiltPC.count = 0;
+            tiltPC.clickNum.text = tiltPC.count.ToString();
 
             tiltBtn = GameObject.Find("TiltLeft");
             tiltPC = tiltBtn.GetComponent<TiltPlayerController>();
             tiltPC.currentSelect = false;
+            tiltPC.count = 0;
+            tiltPC.clickNum.text = tiltPC.count.ToString();
 
             tiltBtn = GameObject.Find("TiltRight");
             tiltPC = tiltBtn.GetComponent<TiltPlayerController>();
             tiltPC.currentSelect = false;
+            tiltPC.count = 0;
+            tiltPC.clickNum.text = tiltPC.count.ToString();
         }
     }
 
