@@ -6,15 +6,35 @@ using UnityEngine.SceneManagement;
 public class cshBtnManager : MonoBehaviour
 {
     float timer;
-    int waitingTime = 2;
-    public void BtnStart()
+    int waitingTime;
+    bool isButtonPressed;
+
+    void Start()
     {
-        timer += Time.deltaTime;
-        if (timer > waitingTime)
+        waitingTime = 4;
+        isButtonPressed = false;
+    }
+
+    void Update()
+    {
+        if (isButtonPressed)
         {
-            SceneManager.LoadScene("FirstRoomSampleScene");
+            timer += Time.deltaTime;
+            if (timer > waitingTime)
+            {
+                SceneManager.LoadScene("FirstRoomSampleScene");
+            }
         }
     }
+
+    public void BtnStart() {
+        if (!isButtonPressed)
+        {
+            isButtonPressed = true;
+            timer = 0f;
+        }
+    }
+
     public void BtnQuit()
     {
         Application.Quit();

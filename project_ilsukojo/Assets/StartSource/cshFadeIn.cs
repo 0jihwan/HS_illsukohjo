@@ -10,7 +10,7 @@ public class cshFadeIn : MonoBehaviour
     GameObject SplashObj;
     Image image; //판넬이미지
     private bool checkbool = false;     //투명도 조절
-    private float fadespeed = 0.002f;  //투명도 조절 속도
+    private float fadespeed = 0.005f;  //투명도 조절 속도
     private float pi = Mathf.PI;
 
     void Awake()
