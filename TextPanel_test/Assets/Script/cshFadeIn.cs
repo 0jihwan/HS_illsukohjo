@@ -46,7 +46,7 @@ public class cshFadeIn : MonoBehaviour
             else
             {   //이거 왜 조건문인데 둘 다 적용되냐? 이해가안되네
                 color.a += realA*Time.deltaTime*fadespeed;
-                Debug.Log("기울기 음수");
+                //Debug.Log("기울기 음수");
                 
 
             }
