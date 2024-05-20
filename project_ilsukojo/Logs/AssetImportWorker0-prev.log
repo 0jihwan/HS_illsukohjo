@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 15775 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32502 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/JiHwan/Documents/GitHub/HS_illsukohjo/project_ilsukojo
+D:/unity/HS_illsukohjo/project_ilsukojo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65363
-Successfully changed project path to: C:/Users/JiHwan/Documents/GitHub/HS_illsukohjo/project_ilsukojo
-C:/Users/JiHwan/Documents/GitHub/HS_illsukohjo/project_ilsukojo
+57900
+Successfully changed project path to: D:/unity/HS_illsukohjo/project_ilsukojo
+D:/unity/HS_illsukohjo/project_ilsukojo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,73 @@ C:/Users/JiHwan/Documents/GitHub/HS_illsukohjo/project_ilsukojo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43080] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 1347988771 [EditorId] 1347988771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9OODE96) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [41792] Host "[IP] 172.30.1.19 [Port] 0 [Flags] 2 [Guid] 904848400 [EditorId] 904848400 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LM7NA71) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [43080] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 1347988771 [EditorId] 1347988771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9OODE96) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41792] Host "[IP] 172.30.1.19 [Port] 0 [Flags] 2 [Guid] 904848400 [EditorId] 904848400 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LM7NA71) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 55.90 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/JiHwan/Documents/GitHub/HS_illsukohjo/project_ilsukojo/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/HS_illsukohjo/project_ilsukojo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
     Vendor:   NVIDIA
-    VRAM:     3964 MB
-    Driver:   31.0.15.5222
+    VRAM:     7964 MB
+    Driver:   31.0.15.4629
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.042703 seconds.
-- Loaded All Assemblies, in  0.893 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012669 seconds.
+- Loaded All Assemblies, in  0.287 seconds
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1488ms
-	BeginReloadAssembly (318ms)
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 523ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (181ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (304ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (274ms)
-			TypeCache.Refresh (271ms)
-				TypeCache.ScanAssembly (246ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (607ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +123,162 @@ Domain Reload Profiling: 1488ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  8.183 seconds
-Refreshing native plugins compatible for Editor in 37.24 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.838 seconds
-Domain Reload Profiling: 9995ms
-	BeginReloadAssembly (366ms)
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 1118ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (132ms)
-	LoadAllAssembliesAndSetupDomain (7563ms)
-		LoadAssemblies (7163ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (614ms)
-			TypeCache.Refresh (500ms)
-				TypeCache.ScanAssembly (459ms)
-			ScanForSourceGeneratedMonoScriptInfo (82ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1840ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (507ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1482ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (271ms)
-			ProcessInitializeOnLoadAttributes (950ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
-			AfterProcessingInitializeOnLoad (42ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 22.62 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Failed to load shader (instanceID 570, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 604, GUID 911130a939bf84843bcc4211c327f579)
+Failed to load shader (instanceID 504, GUID c84d57d423a2042eb92da86f9fa670a3)
+Failed to load shader (instanceID 484, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 576, GUID 0a7e590f3cf1d4ee8a8fab5b6eff09ef)
+Failed to load shader (instanceID 636, GUID 21322c8b137c66e49b86085d3c8161f6)
+Failed to load shader (instanceID 534, GUID 4293210a3280c4283b9872316017f1f9)
+Failed to load shader (instanceID 410, GUID d6dae50ee9e1bfa4db75f19f99355220)
+Failed to load shader (instanceID 418, GUID ec9fec698a3456d4fb18cf8bacb7a2bc)
+Failed to load shader (instanceID 424, GUID 573620ae32aec764abd4d728906d2587)
+Failed to load shader (instanceID 498, GUID 1ccecd9b89b8a4f14bfb64f29ddfcc81)
+Failed to load shader (instanceID 638, GUID 8ca8b34aa013842f3b399b6961e7dc3b)
+Failed to load shader (instanceID 582, GUID 74b1585886a85614aa34e2c8e303c77a)
+Failed to load shader (instanceID 462, GUID e8ee25143a34b8c4388709ea947055d1)
+Failed to load shader (instanceID 414, GUID 04c410c9937594faa893a11dceb85f7e)
+Failed to load shader (instanceID 538, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 468, GUID 4431b1f1f743fbf4eb310a967890cbea)
+Failed to load shader (instanceID 590, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 620, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 428, GUID e6e9a19c3678ded42a3bc431ebef7dbd)
+Failed to load shader (instanceID 574, GUID d6e5744ac426949ff8c0f02936689d4c)
+Failed to load shader (instanceID 436, GUID d104b2fc1ca6445babb8e90b0758136b)
+Failed to load shader (instanceID 640, GUID 24f9f312f97bd48dba1a728d58c89842)
+Failed to load shader (instanceID 420, GUID e7857e9d0c934dc4f83f270f8447b006)
+Failed to load shader (instanceID 644, GUID ee7e4c9a5f6364b688a332c67fc32cca)
+Failed to load shader (instanceID 586, GUID de02b375720b5c445afe83cd483bedf3)
+Failed to load shader (instanceID 612, GUID 33cb4e8ff0c1d43ac8ec40692656c7ed)
+Failed to load shader (instanceID 512, GUID e8b802ac01d87144b91f12f40c1f2659)
+Failed to load shader (instanceID 542, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
+Failed to load shader (instanceID 600, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 524, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 624, GUID ce09d4a80b88c5a4eb9768fab4f1ee00)
+Failed to load shader (instanceID 520, GUID 13c02b14c4d048fa9653293d54f6e0e1)
+Failed to load shader (instanceID 592, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 650, GUID c7d04ca57e5449d49ad9cee1c604bc26)
+Failed to load shader (instanceID 594, GUID 0ca6dca7396eb48e5849247ffd444914)
+Failed to load shader (instanceID 422, GUID cf852408f2e174538bcd9b7fda1c5ae7)
+Failed to load shader (instanceID 546, GUID f056d8bd2a1c7e44e9729144b4c70395)
+Failed to load shader (instanceID 490, GUID 0406db5a14f94604a8c57ccfbc9f3b46)
+Failed to load shader (instanceID 562, GUID 0849e84e3d62649e8882e9d6f056a017)
+Failed to load shader (instanceID 628, GUID 5ec81c81908db34429b4f6ddecadd3bd)
+Failed to load shader (instanceID 626, GUID 6f37d9e45fbae41b386f76d3bfefec4a)
+Failed to load shader (instanceID 408, GUID c17132b1f77d20942aa75f8429c0f8bc)
+Failed to load shader (instanceID 440, GUID c56b7e0d4c7cb484e959caeeedae9bbf)
+Failed to load shader (instanceID 496, GUID c26db15b9a2ed4b2ebefefd26ce85ae1)
+Failed to load shader (instanceID 442, GUID 7b3ede40266cd49a395def176e1bc486)
+Failed to load shader (instanceID 456, GUID a15b78cf8ca26ca4fb2090293153c62c)
+Failed to load shader (instanceID 488, GUID 933532a4fcc9baf4fa0491de14d08ed7)
+Failed to load shader (instanceID 480, GUID e507fdfead5ca47e8b9a768b51c291a1)
+Failed to load shader (instanceID 458, GUID 5f1864addb451f54bae8c86d230f736e)
+Failed to load shader (instanceID 548, GUID 8516d7a69675844a7a0b7095af7c46af)
+Failed to load shader (instanceID 450, GUID 5e7134d6e63e0bc47a1dd2669cedb379)
+Failed to load shader (instanceID 470, GUID d5a307c014552314b9f560906d708772)
+Failed to load shader (instanceID 550, GUID 8fbe92a9edfe6074e841d6dd1509bc59)
+Failed to load shader (instanceID 416, GUID 65df88701913c224d95fc554db28381a)
+Failed to load shader (instanceID 656, GUID 650dd9526735d5b46b79224bc6e94025)
+Failed to load shader (instanceID 452, GUID 2aed67ad60045d54ba3a00c91e2d2631)
+Failed to load shader (instanceID 446, GUID 1121bb4e615ca3c48b214e79e841e823)
+Failed to load shader (instanceID 558, GUID 3230fdc399f8287488325e5941a00527)
+Failed to load shader (instanceID 526, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 426, GUID e9155b26e1bc55942a41e518703fe304)
+Failed to load shader (instanceID 648, GUID 4300ae919783d4fa38001d745fbdecc1)
+Failed to load shader (instanceID 478, GUID f6783ab646d374f94b199774402a5144)
+Failed to load shader (instanceID 658, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 514, GUID 35e778fba8b2b49a198d8d7cfced67eb)
+Failed to load shader (instanceID 506, GUID cfa7edf01005f4e338d973cea2f6eab3)
+Failed to load shader (instanceID 518, GUID 8d2bb70cbf9db8d4da26e15b26e74248)
+Failed to load shader (instanceID 634, GUID a07688e921e974338945464731e069ce)
+Failed to load shader (instanceID 522, GUID 86212504c7e9f468db2300dc5932dc17)
+Failed to load shader (instanceID 492, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 580, GUID 603d454d711fe784cba9ce08dd22b881)
+Failed to load shader (instanceID 660, GUID 1fd883d610b2f42a98fc7abaf6809430)
+Failed to load shader (instanceID 434, GUID 93446b5c5339d4f00b85c159e1159b7c)
+Failed to load shader (instanceID 432, GUID 5fd9a8feb75a4b5894c241777f519d4e)
+Failed to load shader (instanceID 528, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 662, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 544, GUID 209f4c3496c1b46a3a2f9f0f27be788f)
+Failed to load shader (instanceID 652, GUID 7cbb3655339ec401ca75ba5fe26884f4)
+Failed to load shader (instanceID 536, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 608, GUID e35a31e1679aeff489e202f5cc4853d5)
+Failed to load shader (instanceID 482, GUID 29868e73b638e48ca99a19ea58c48d90)
+Failed to load shader (instanceID 646, GUID 04b5dda5f278e4f56a9dbda64d90bb95)
+Failed to load shader (instanceID 444, GUID 6cda457ac28612740adb23da5d39ea92)
+Failed to load shader (instanceID 654, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 500, GUID e39bd598ce13f44ba8af997d3e42cd18)
+Failed to load shader (instanceID 460, GUID 131f1b93a4ebd459ba87b6bad055fb33)
+Failed to load shader (instanceID 552, GUID b7839dad95683814aa64166edc107ae2)
+Failed to load shader (instanceID 630, GUID d79e1c784eaf80c4585c0be7391f757a)
+Failed to load shader (instanceID 564, GUID 44fc62292b65ab04eabcf310e799ccf6)
+Failed to load shader (instanceID 578, GUID e8c3a1662a88140ae84d69a3a4cfdbaa)
+Failed to load shader (instanceID 464, GUID 562b7ae4f629f144aa97780546fce7c6)
+Failed to load shader (instanceID 516, GUID e260cfa7296ee7642b167f1eb5be5023)
+Failed to load shader (instanceID 454, GUID 1edcd131364091c46a17cbff0b1de97a)
+Failed to load shader (instanceID 540, GUID 95e15a77195eb574ab82aaac18b1c796)
+Failed to load shader (instanceID 664, GUID 77774d9009bb81447b048c907d4c6273)
+Failed to load shader (instanceID 566, GUID 99134b1f0c27d54469a840832a28fadf)
+Failed to load shader (instanceID 430, GUID 7f888aff2ac86494babad1c2c5daeee2)
+Failed to load shader (instanceID 448, GUID 63eaba0ebfb82cc43bde059b4a8c65f6)
+Failed to load shader (instanceID 502, GUID 60e10855641b4d84da68ec72e6f6eeb8)
+Failed to load shader (instanceID 412, GUID 0f854b35a0cf61a429bd5dcfea30eddd)
+Failed to load shader (instanceID 466, GUID c49e63ed1bbcb334780a3bd19dfed403)
+Failed to load shader (instanceID 438, GUID a89bee29cffa951418fc1e2da94d1959)
+Failed to load shader (instanceID 596, GUID 7e60080c8cd24a2468cb08b4bfee5606)
+Failed to load shader (instanceID 618, GUID 25b8a80cb03994c769145599929a5e97)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (414.8 KB). Loaded Objects now: 6711.
-Memory consumption went from 242.8 MB to 242.4 MB.
-Total: 7.773600 ms (FindLiveObjects: 0.766500 ms CreateObjectMapping: 0.365300 ms MarkObjects: 6.137700 ms  DeleteObjects: 0.500800 ms)
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (59.5 KB). Loaded Objects now: 3678.
+Memory consumption went from 145.2 MB to 145.2 MB.
+Total: 4.697900 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.239500 ms MarkObjects: 3.874100 ms  DeleteObjects: 0.120800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,14 +295,333 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1476129.473922 seconds.
-  path: Assets/FirstRoomETC/TileMaterial 2.mat
-  artifactKey: Guid(8994a57905c738a49a2e78def64db918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FirstRoomETC/TileMaterial 2.mat using Guid(8994a57905c738a49a2e78def64db918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fb61fcc9cb2f7dc597c43dce8bdadf') in 2.327030 seconds
+  Time since last request: 7953.702618 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8005c6664261a9c4baeb694a99bad8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8005c6664261a9c4baeb694a99bad8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0f13a71f46fe6d4ee5dc44aa4afa48') in 0.001697 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ½º·¹µå Á¾·á ¶Ç´Â ÀÀ¿ë ÇÁ·Î±×·¥ ¿äÃ» ¶§¹®¿¡ I/O ÀÛ¾÷ÀÌ Ãë¼ÒµÇ¾ú½À´Ï´Ù.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.489364 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19a136579dd41510de332fe7345ef1b') in 0.000351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.215465 seconds.
+  path: Assets/FirstRoomETC
+  artifactKey: Guid(a93ed8f84e55b2a4cabfdda17dc8cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC using Guid(a93ed8f84e55b2a4cabfdda17dc8cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565bd5bf88c3c18454f52f425cd40122') in 0.000326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065769 seconds.
+  path: Assets/FirstRoomETC/NemoLogic.prefab
+  artifactKey: Guid(d1f8b97ff51a8594580fe11ba54378c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/NemoLogic.prefab using Guid(d1f8b97ff51a8594580fe11ba54378c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b574a8d480f2f8b8ff9f78068ac9f02f') in 0.058112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1255
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FirstRoomETC/TiltBtn.prefab
+  artifactKey: Guid(e5c81e4e8acf69f4a849d34315afacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/TiltBtn.prefab using Guid(e5c81e4e8acf69f4a849d34315afacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6644c0ef785f3e3c5cfbc9c937d0e18') in 0.002814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FirstRoomETC/tiltì‚¬ì§„.png
+  artifactKey: Guid(3e9106c4e75ec2d4eb1e571b99c03dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/tiltì‚¬ì§„.png using Guid(3e9106c4e75ec2d4eb1e571b99c03dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266dd42fc7035a70a1325b13fdcc536e') in 0.051791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FirstRoomETC/ë…¸ëŸ‰í•´ì „.jpg
+  artifactKey: Guid(3b99b4af4ccdeff498b4d8c639679e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/ë…¸ëŸ‰í•´ì „.jpg using Guid(3b99b4af4ccdeff498b4d8c639679e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f5016495e613a9a931b365558d04b4') in 0.025488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FirstRoomETC/ë³‘ì‚¬ê·¸ë¦¼3.jpg
+  artifactKey: Guid(1ca7c79274dc86b4b95d0ab8de873a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/ë³‘ì‚¬ê·¸ë¦¼3.jpg using Guid(1ca7c79274dc86b4b95d0ab8de873a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46a8e23fc6734a76a4e1724811c20b2') in 0.020416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FirstRoomETC/ë³‘ì‚¬ê·¸ë¦¼.jpg
+  artifactKey: Guid(3af26cfce1833c84da2fc4ff27866f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/ë³‘ì‚¬ê·¸ë¦¼.jpg using Guid(3af26cfce1833c84da2fc4ff27866f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad4e781fffa312fbe0804c409a91579') in 0.015435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FirstRoomETC/ì‚´ìˆ˜ëŒ€ì²©.png
+  artifactKey: Guid(6a1e3c7a0496dc94290b1bce8aa78873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/ì‚´ìˆ˜ëŒ€ì²©.png using Guid(6a1e3c7a0496dc94290b1bce8aa78873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94567545b3d5592b5f81ba47b85cc372') in 0.041399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FirstRoomETC/TileMaterial.mat
+  artifactKey: Guid(c21bf17a6d2ca0140a9154a1e740ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoomETC/TileMaterial.mat using Guid(c21bf17a6d2ca0140a9154a1e740ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ab80e7afb7be8b04508c86a30ea29') in 0.043825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.413293 seconds.
+  path: Assets/FirstScenes/FirstRoomSampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstScenes/FirstRoomSampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc9f35407f719941c498996089ea45c') in 0.000408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (213ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Failed to load shader (instanceID 570, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 604, GUID 911130a939bf84843bcc4211c327f579)
+Failed to load shader (instanceID 504, GUID c84d57d423a2042eb92da86f9fa670a3)
+Failed to load shader (instanceID 484, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 576, GUID 0a7e590f3cf1d4ee8a8fab5b6eff09ef)
+Failed to load shader (instanceID 636, GUID 21322c8b137c66e49b86085d3c8161f6)
+Failed to load shader (instanceID 534, GUID 4293210a3280c4283b9872316017f1f9)
+Failed to load shader (instanceID 410, GUID d6dae50ee9e1bfa4db75f19f99355220)
+Failed to load shader (instanceID 418, GUID ec9fec698a3456d4fb18cf8bacb7a2bc)
+Failed to load shader (instanceID 424, GUID 573620ae32aec764abd4d728906d2587)
+Failed to load shader (instanceID 498, GUID 1ccecd9b89b8a4f14bfb64f29ddfcc81)
+Failed to load shader (instanceID 638, GUID 8ca8b34aa013842f3b399b6961e7dc3b)
+Failed to load shader (instanceID 582, GUID 74b1585886a85614aa34e2c8e303c77a)
+Failed to load shader (instanceID 462, GUID e8ee25143a34b8c4388709ea947055d1)
+Failed to load shader (instanceID 414, GUID 04c410c9937594faa893a11dceb85f7e)
+Failed to load shader (instanceID 538, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 468, GUID 4431b1f1f743fbf4eb310a967890cbea)
+Failed to load shader (instanceID 590, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 620, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 428, GUID e6e9a19c3678ded42a3bc431ebef7dbd)
+Failed to load shader (instanceID 574, GUID d6e5744ac426949ff8c0f02936689d4c)
+Failed to load shader (instanceID 436, GUID d104b2fc1ca6445babb8e90b0758136b)
+Failed to load shader (instanceID 640, GUID 24f9f312f97bd48dba1a728d58c89842)
+Failed to load shader (instanceID 420, GUID e7857e9d0c934dc4f83f270f8447b006)
+Failed to load shader (instanceID 644, GUID ee7e4c9a5f6364b688a332c67fc32cca)
+Failed to load shader (instanceID 586, GUID de02b375720b5c445afe83cd483bedf3)
+Failed to load shader (instanceID 612, GUID 33cb4e8ff0c1d43ac8ec40692656c7ed)
+Failed to load shader (instanceID 512, GUID e8b802ac01d87144b91f12f40c1f2659)
+Failed to load shader (instanceID 542, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
+Failed to load shader (instanceID 600, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 524, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 624, GUID ce09d4a80b88c5a4eb9768fab4f1ee00)
+Failed to load shader (instanceID 520, GUID 13c02b14c4d048fa9653293d54f6e0e1)
+Failed to load shader (instanceID 592, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 650, GUID c7d04ca57e5449d49ad9cee1c604bc26)
+Failed to load shader (instanceID 594, GUID 0ca6dca7396eb48e5849247ffd444914)
+Failed to load shader (instanceID 422, GUID cf852408f2e174538bcd9b7fda1c5ae7)
+Failed to load shader (instanceID 546, GUID f056d8bd2a1c7e44e9729144b4c70395)
+Failed to load shader (instanceID 490, GUID 0406db5a14f94604a8c57ccfbc9f3b46)
+Failed to load shader (instanceID 562, GUID 0849e84e3d62649e8882e9d6f056a017)
+Failed to load shader (instanceID 628, GUID 5ec81c81908db34429b4f6ddecadd3bd)
+Failed to load shader (instanceID 626, GUID 6f37d9e45fbae41b386f76d3bfefec4a)
+Failed to load shader (instanceID 408, GUID c17132b1f77d20942aa75f8429c0f8bc)
+Failed to load shader (instanceID 440, GUID c56b7e0d4c7cb484e959caeeedae9bbf)
+Failed to load shader (instanceID 496, GUID c26db15b9a2ed4b2ebefefd26ce85ae1)
+Failed to load shader (instanceID 442, GUID 7b3ede40266cd49a395def176e1bc486)
+Failed to load shader (instanceID 456, GUID a15b78cf8ca26ca4fb2090293153c62c)
+Failed to load shader (instanceID 488, GUID 933532a4fcc9baf4fa0491de14d08ed7)
+Failed to load shader (instanceID 480, GUID e507fdfead5ca47e8b9a768b51c291a1)
+Failed to load shader (instanceID 458, GUID 5f1864addb451f54bae8c86d230f736e)
+Failed to load shader (instanceID 548, GUID 8516d7a69675844a7a0b7095af7c46af)
+Failed to load shader (instanceID 450, GUID 5e7134d6e63e0bc47a1dd2669cedb379)
+Failed to load shader (instanceID 470, GUID d5a307c014552314b9f560906d708772)
+Failed to load shader (instanceID 550, GUID 8fbe92a9edfe6074e841d6dd1509bc59)
+Failed to load shader (instanceID 416, GUID 65df88701913c224d95fc554db28381a)
+Failed to load shader (instanceID 656, GUID 650dd9526735d5b46b79224bc6e94025)
+Failed to load shader (instanceID 452, GUID 2aed67ad60045d54ba3a00c91e2d2631)
+Failed to load shader (instanceID 446, GUID 1121bb4e615ca3c48b214e79e841e823)
+Failed to load shader (instanceID 558, GUID 3230fdc399f8287488325e5941a00527)
+Failed to load shader (instanceID 526, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 426, GUID e9155b26e1bc55942a41e518703fe304)
+Failed to load shader (instanceID 648, GUID 4300ae919783d4fa38001d745fbdecc1)
+Failed to load shader (instanceID 478, GUID f6783ab646d374f94b199774402a5144)
+Failed to load shader (instanceID 658, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 514, GUID 35e778fba8b2b49a198d8d7cfced67eb)
+Failed to load shader (instanceID 506, GUID cfa7edf01005f4e338d973cea2f6eab3)
+Failed to load shader (instanceID 518, GUID 8d2bb70cbf9db8d4da26e15b26e74248)
+Failed to load shader (instanceID 634, GUID a07688e921e974338945464731e069ce)
+Failed to load shader (instanceID 522, GUID 86212504c7e9f468db2300dc5932dc17)
+Failed to load shader (instanceID 492, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 580, GUID 603d454d711fe784cba9ce08dd22b881)
+Failed to load shader (instanceID 660, GUID 1fd883d610b2f42a98fc7abaf6809430)
+Failed to load shader (instanceID 434, GUID 93446b5c5339d4f00b85c159e1159b7c)
+Failed to load shader (instanceID 432, GUID 5fd9a8feb75a4b5894c241777f519d4e)
+Failed to load shader (instanceID 528, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 662, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 544, GUID 209f4c3496c1b46a3a2f9f0f27be788f)
+Failed to load shader (instanceID 652, GUID 7cbb3655339ec401ca75ba5fe26884f4)
+Failed to load shader (instanceID 536, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 608, GUID e35a31e1679aeff489e202f5cc4853d5)
+Failed to load shader (instanceID 482, GUID 29868e73b638e48ca99a19ea58c48d90)
+Failed to load shader (instanceID 646, GUID 04b5dda5f278e4f56a9dbda64d90bb95)
+Failed to load shader (instanceID 444, GUID 6cda457ac28612740adb23da5d39ea92)
+Failed to load shader (instanceID 654, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 500, GUID e39bd598ce13f44ba8af997d3e42cd18)
+Failed to load shader (instanceID 460, GUID 131f1b93a4ebd459ba87b6bad055fb33)
+Failed to load shader (instanceID 552, GUID b7839dad95683814aa64166edc107ae2)
+Failed to load shader (instanceID 630, GUID d79e1c784eaf80c4585c0be7391f757a)
+Failed to load shader (instanceID 564, GUID 44fc62292b65ab04eabcf310e799ccf6)
+Failed to load shader (instanceID 578, GUID e8c3a1662a88140ae84d69a3a4cfdbaa)
+Failed to load shader (instanceID 464, GUID 562b7ae4f629f144aa97780546fce7c6)
+Failed to load shader (instanceID 516, GUID e260cfa7296ee7642b167f1eb5be5023)
+Failed to load shader (instanceID 454, GUID 1edcd131364091c46a17cbff0b1de97a)
+Failed to load shader (instanceID 540, GUID 95e15a77195eb574ab82aaac18b1c796)
+Failed to load shader (instanceID 664, GUID 77774d9009bb81447b048c907d4c6273)
+Failed to load shader (instanceID 566, GUID 99134b1f0c27d54469a840832a28fadf)
+Failed to load shader (instanceID 430, GUID 7f888aff2ac86494babad1c2c5daeee2)
+Failed to load shader (instanceID 448, GUID 63eaba0ebfb82cc43bde059b4a8c65f6)
+Failed to load shader (instanceID 502, GUID 60e10855641b4d84da68ec72e6f6eeb8)
+Failed to load shader (instanceID 412, GUID 0f854b35a0cf61a429bd5dcfea30eddd)
+Failed to load shader (instanceID 466, GUID c49e63ed1bbcb334780a3bd19dfed403)
+Failed to load shader (instanceID 438, GUID a89bee29cffa951418fc1e2da94d1959)
+Failed to load shader (instanceID 596, GUID 7e60080c8cd24a2468cb08b4bfee5606)
+Failed to load shader (instanceID 618, GUID 25b8a80cb03994c769145599929a5e97)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.1 KB). Loaded Objects now: 3730.
+Memory consumption went from 142.2 MB to 142.1 MB.
+Total: 7.044700 ms (FindLiveObjects: 0.676300 ms CreateObjectMapping: 0.167300 ms MarkObjects: 6.113500 ms  DeleteObjects: 0.086400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.996759 seconds.
+  path: Assets/Scenes/YSBScene.unity
+  artifactKey: Guid(e086157a0c6245846b7fc10c034e0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/YSBScene.unity using Guid(e086157a0c6245846b7fc10c034e0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e5beaa3d8c04da37f5f00a7f2a91e7') in 0.001710 seconds
+Number of updated asset objects reloaded before import = 9
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.001814 seconds.
+  path: Assets/Scenes/YSBScene.unity
+  artifactKey: Guid(e086157a0c6245846b7fc10c034e0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/YSBScene.unity using Guid(e086157a0c6245846b7fc10c034e0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7e133cf0ce213cd6c9bc9d481f4339') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.316346 seconds.
+  path: Assets/FirstRoom.prefab
+  artifactKey: Guid(db101a320a2970e4c86e29bc79755149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstRoom.prefab using Guid(db101a320a2970e4c86e29bc79755149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8366b98d5f3c338beb5dfbc0a1be8f0') in 0.222470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3563
+========================================================================
+Received Import Request.
+  Time since last request: 3.220407 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(660c0e0dde77c224ca5728951c456735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(660c0e0dde77c224ca5728951c456735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd08d600b936601aa503a2b426be48c4') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.475247 seconds.
+  path: Assets/Image/enter.png
+  artifactKey: Guid(ed785fcdc361c4f4da1046e147160c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/enter.png using Guid(ed785fcdc361c4f4da1046e147160c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f205b7736f8cd560da13d94ece49d81') in 0.053949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Image/Re.png
+  artifactKey: Guid(844848ca745ca8a499d4acc1c80bc25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Re.png using Guid(844848ca745ca8a499d4acc1c80bc25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e770606d213e05feacf288b21c9251db') in 0.016701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Image/passhint.png
+  artifactKey: Guid(be5cb10090c3e04448d1e4e9b70376ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/passhint.png using Guid(be5cb10090c3e04448d1e4e9b70376ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8c0e0ea0c41823cb2e1997d77589a') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.275721 seconds.
+  path: Assets/Font/KCC-Hanbit.otf
+  artifactKey: Guid(f29e477d262bb6d43b61b6c20b473e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/KCC-Hanbit.otf using Guid(f29e477d262bb6d43b61b6c20b473e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd394d0ef227a97718f5fb9a7f941aca') in 0.020507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
