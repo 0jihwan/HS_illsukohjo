@@ -10,6 +10,8 @@ public class CameraSwap : MonoBehaviour
     public GameObject nemoLogic;
     public Camera subCamera;
 
+    public bool isTlitclicked = false;
+
     public void OnMainPlayer()
     {
         nemoLogic.SetActive(false);
@@ -20,6 +22,7 @@ public class CameraSwap : MonoBehaviour
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        isTlitclicked = true;
     }
 
     public void OnSubCamera()

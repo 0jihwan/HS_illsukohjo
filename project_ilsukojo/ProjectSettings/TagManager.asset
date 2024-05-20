@@ -18,6 +18,9 @@ TagManager:
   - TiltBtn3
   - TiltBtn5
   - TiltBtn4
+  - target
+  - terrain
+  - Event
   layers:
   - Default
   - TransparentFX

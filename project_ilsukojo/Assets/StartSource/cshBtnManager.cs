@@ -22,7 +22,7 @@ public class cshBtnManager : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > waitingTime)
             {
-                SceneManager.LoadScene("FirstRoomSampleScene");
+                SceneManager.LoadScene("1_Room1");
             }
         }
     }

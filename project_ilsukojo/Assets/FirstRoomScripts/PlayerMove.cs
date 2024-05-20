@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField]
-    private float moveSpeed;
+    public float moveSpeed;
     private Vector3 moveForce;
 
     private CharacterController characterController;
