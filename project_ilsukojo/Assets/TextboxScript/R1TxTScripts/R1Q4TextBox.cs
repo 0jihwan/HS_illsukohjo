@@ -12,7 +12,7 @@ public class R1Q4TextBox : MonoBehaviour
     private Coroutine printingCoroutine;
     //GameObject player;
 
-    private bool isdone = false;
+    public bool isdone = false;
     public static R1Q4TextBox Instance;
 
     [SerializeField]
@@ -31,9 +31,9 @@ public class R1Q4TextBox : MonoBehaviour
         }
         // 메시지 예시
         messages = new string[] {
-            "이건 틸트 미로 퍼즐이다. 분명..",
-            "공을 목적지까지 최단거리로 이동시키는 퍼즐이었지.",
-            "왜 이런 게 여기 있는지는 모르겠지만\n별다른 수가 없으니까... 풀어보자."
+            "이 퍼즐은 네모로직 퍼즐이네.\n제시된 숫자를 힌트로 칸을 색칠하는 퍼즐이지.",
+            "5와 6이 써있다면 다섯 칸과 여섯 칸을 비우고\n한 칸을 칠하면 됐던 것 같아.",
+            "어렸을 때 많이 했던 기억이 있어.한 번 해볼까?"
         };
     }
 

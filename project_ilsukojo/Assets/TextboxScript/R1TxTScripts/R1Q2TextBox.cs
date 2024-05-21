@@ -12,7 +12,7 @@ public class R1Q2TextBox : MonoBehaviour
     private Coroutine printingCoroutine;
     //GameObject player;
 
-    private bool isdone = false;
+    public bool isdone = false;
     public static R1Q2TextBox Instance;
 
     [SerializeField]
@@ -31,8 +31,8 @@ public class R1Q2TextBox : MonoBehaviour
         }
         // 메시지 예시
         messages = new string[] {
-            "이건.. 옛날 병사들의 그림인가?",
-            "병사의 숫자? 몇 번째 버튼? 확인하기. 정답 5"
+            "이건.. 조선시대? 고려시대? 옛날 병사들의 그림인가?",
+            "이 그림은 왜 있는지 모르겠어. 다른 퍼즐을 살펴보자."
         };
     }
 

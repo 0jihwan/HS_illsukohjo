@@ -12,7 +12,7 @@ public class R1Q3TextBox : MonoBehaviour
     private Coroutine printingCoroutine;
     //GameObject player;
 
-    private bool isdone = false;
+    public bool isdone = false;
     public static R1Q3TextBox Instance;
 
     [SerializeField]
