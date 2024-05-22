@@ -4,16 +4,16 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class YSBPlyaerMove : MonoBehaviour
+public class YSBPlayerMove : MonoBehaviour
 {
     public Transform cameraTransform;
     public CharacterController characterController;
     [SerializeField]
-    private float movespeed = 5f;
+    public float movespeed = 5f;
     [SerializeField]
-    private float jumpspeed = 10f;
+    private float jumpspeed = 0f;
     [SerializeField]
-    private float gravity = -20f;
+    private float gravity = 0f;
     [SerializeField]
     private float yVelocity = 0;
     //UI bool값
@@ -48,9 +48,11 @@ public class YSBPlyaerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Cursor.visible = true;//마우스 포인터 보이기
-        Cursor.lockState = CursorLockMode.Confined;//마우스 화면안에 가두기
+        //Cursor.visible = true;//마우스 포인터 보이기
+        //Cursor.lockState = CursorLockMode.Confined;//마우스 화면안에 가두기
         //Cursor.lockState = CursorLockMode.None;//마우스 화면밖 가능
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
         if ((!WaterUION)&&(!BHintUION)&&(!UpDownUION)&&(!NHintUION)&&(!LHintUION)&&(!PassWordUION)) {
             //플레이어 움직임
@@ -63,10 +65,12 @@ public class YSBPlyaerMove : MonoBehaviour
             if (characterController.isGrounded)
             {
                 yVelocity = 0;
+                /*
                 if (Input.GetKeyUp(KeyCode.Space))
                 {
                     yVelocity = jumpspeed;
                 }
+                */
             }
             yVelocity += (gravity * Time.deltaTime);
             moveDirection.y = yVelocity;

@@ -55,14 +55,14 @@ public class waterUIon : MonoBehaviour
         WaterUI.gameObject.SetActive(true);
         WUI = true;
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().WaterUION = true;
+        player.GetComponent<YSBPlayerMove>().WaterUION = true;
     }
     public void WUIOFF()
     {
         WaterUI.gameObject.SetActive(false);
         WUI = false;
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().WaterUION = false;
+        player.GetComponent<YSBPlayerMove>().WaterUION = false;
     }
 
     public void Wreset()

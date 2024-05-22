@@ -23,14 +23,14 @@ public class NoteHint : MonoBehaviour
     {
         NHintUI.gameObject.SetActive(true);
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().NHintUION = true;
+        player.GetComponent<YSBPlayerMove>().NHintUION = true;
         NHUION = true;
     }
     public void NHintUIOFF()
     {
         NHintUI.gameObject.SetActive(false);
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().NHintUION = false;
+        player.GetComponent<YSBPlayerMove>().NHintUION = false;
         NHUION = false;
     }
 }

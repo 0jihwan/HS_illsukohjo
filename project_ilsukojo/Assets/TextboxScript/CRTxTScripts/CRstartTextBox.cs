@@ -12,7 +12,7 @@ public class CRstartTextBox : MonoBehaviour
     private Coroutine printingCoroutine;
     //GameObject player;
 
-    private bool isdone = false;
+    public bool isdone = false;
     public static CRstartTextBox Instance;
 
     [SerializeField]

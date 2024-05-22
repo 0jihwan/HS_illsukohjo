@@ -23,14 +23,14 @@ public class LastHintUION : MonoBehaviour
     {
         LastHintUI.gameObject.SetActive(true);
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().LHintUION = true;
+        player.GetComponent<YSBPlayerMove>().LHintUION = true;
         LHintON = true;
     }
     public void LHintUIOFF()
     {
         LastHintUI.gameObject.SetActive(false);
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().LHintUION = false;
+        player.GetComponent<YSBPlayerMove>().LHintUION = false;
         LHintON = false;
     }
 }

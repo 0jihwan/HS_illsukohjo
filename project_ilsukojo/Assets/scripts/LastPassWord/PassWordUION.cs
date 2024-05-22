@@ -31,7 +31,7 @@ public class PassWordUION : MonoBehaviour
         PassWordUI.gameObject.SetActive(true);
         PWUION = true;
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().PassWordUION = true;
+        player.GetComponent<YSBPlayerMove>().PassWordUION = true;
 
     }
     public void PaUIOFF()
@@ -39,7 +39,7 @@ public class PassWordUION : MonoBehaviour
         PassWordUI.gameObject.SetActive(false);
         PWUION = false;
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().PassWordUION = false;
+        player.GetComponent<YSBPlayerMove>().PassWordUION = false;
         gameObject.GetComponent<PassWordState>().state = PassWordState.Pastate.Start;
     }
 }

@@ -155,7 +155,7 @@ public class UpDownState : MonoBehaviour
             UDsolve = true;
             UDUI.gameObject.SetActive(false);
             cam.GetComponent<CameraMove>().ANYUION = false;
-            player.GetComponent<YSBPlyaerMove>().UpDownUION = false;
+            player.GetComponent<YSBPlayerMove>().UpDownUION = false;
 
         }
         else if (state == Ustate.sfinal)

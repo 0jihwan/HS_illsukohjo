@@ -23,14 +23,14 @@ public class BinaryHint : MonoBehaviour
     {
         BHintUI.gameObject.SetActive(true);
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().BHintUION = true;
+        player.GetComponent<YSBPlayerMove>().BHintUION = true;
         BHUION = true;
     }
     public void BHintUIOFF()
     {
         BHintUI.gameObject.SetActive(false);
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().BHintUION = false;
+        player.GetComponent<YSBPlayerMove>().BHintUION = false;
         BHUION = false;
     }
 }

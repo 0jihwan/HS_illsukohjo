@@ -25,13 +25,13 @@ public class UpDownUIon : MonoBehaviour
         UpDownUI.gameObject.SetActive(true);
         UDUIon = true;
         cam.GetComponent<CameraMove>().ANYUION = true;
-        player.GetComponent<YSBPlyaerMove>().UpDownUION = true;
+        player.GetComponent<YSBPlayerMove>().UpDownUION = true;
     }
     public void WUIOFF()
     {
         UpDownUI.gameObject.SetActive(false);
         UDUIon = false;
         cam.GetComponent<CameraMove>().ANYUION = false;
-        player.GetComponent<YSBPlyaerMove>().UpDownUION = false;
+        player.GetComponent<YSBPlayerMove>().UpDownUION = false;
     }
 }

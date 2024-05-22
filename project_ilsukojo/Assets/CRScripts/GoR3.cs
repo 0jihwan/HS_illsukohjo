@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class cshGoR2 : MonoBehaviour
+public class GoR3 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
