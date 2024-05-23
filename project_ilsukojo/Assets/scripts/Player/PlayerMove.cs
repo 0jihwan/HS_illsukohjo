@@ -10,8 +10,8 @@ public class YSBPlayerMove : MonoBehaviour
     public CharacterController characterController;
     [SerializeField]
     public float movespeed = 5f;
-    [SerializeField]
-    private float jumpspeed = 0f;
+    //[SerializeField]
+    //private float jumpspeed = 0f;
     [SerializeField]
     private float gravity = 0f;
     [SerializeField]
