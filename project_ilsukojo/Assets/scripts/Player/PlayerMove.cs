@@ -49,9 +49,9 @@ public class YSBPlayerMove : MonoBehaviour
     void Update()
     {
         //Cursor.visible = true;//마우스 포인터 보이기
-        //Cursor.lockState = CursorLockMode.Confined;//마우스 화면안에 가두기
+        Cursor.lockState = CursorLockMode.Confined;//마우스 화면안에 가두기
         //Cursor.lockState = CursorLockMode.None;//마우스 화면밖 가능
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
         if ((!WaterUION)&&(!BHintUION)&&(!UpDownUION)&&(!NHintUION)&&(!LHintUION)&&(!PassWordUION)) {

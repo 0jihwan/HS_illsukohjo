@@ -9,6 +9,8 @@ public class interaction : MonoBehaviour
     public float interactionDistance;
     public GameObject interactionText;
     public LayerMask interactionLayers;
+    
+    //public CharacterController playerController;
 
     void FixedUpdate()
     {
@@ -21,12 +23,20 @@ public class interaction : MonoBehaviour
                 interactionText.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    Cursor.visible = true;
+                    Cursor.lockState = CursorLockMode.None;
+
+                    //playerController.enabled = false;
                     hit.collider.gameObject.GetComponent<letter>().openCloseLetter();
+
                 }
             }
             else
             {
                 interactionText.SetActive(false);
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                //playerController.enabled = true;
             }
         }
         else

@@ -123,6 +123,10 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxisRaw("Vertical");
 
         movement.MoveTo(new Vector3(x, 0, z));
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            movement.MoveTo(new Vector3(10.0f * x, 0, 10.0f * z));
+        }
     }
     
 }

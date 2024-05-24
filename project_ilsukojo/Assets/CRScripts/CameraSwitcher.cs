@@ -22,7 +22,7 @@ public class CameraSwitcher : MonoBehaviour     // 카메라가 Room2 입구로 이동하�
     private void Update()
     {
         timer += Time.deltaTime;
-        if (!StartText.activeSelf && !isSwitching && CRT1.isdone)
+        if (!StartText.activeSelf && !isSwitching && CRT1.isdone)   //에러? StartText?
         {
             Debug.Log("이동!");
             isSwitching = true;
@@ -32,7 +32,6 @@ public class CameraSwitcher : MonoBehaviour     // 카메라가 Room2 입구로 이동하�
 
         if (timer > startTime && isSwitching)
         {
-            Debug.Log("시간!");
             isdone = true;
             crCameraSwap.CROnMainPlayer();
             
