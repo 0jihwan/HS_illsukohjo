@@ -13,6 +13,8 @@ public class waterUIon : MonoBehaviour
     public bool Wsolve = false;
 
     public GameObject LHint,Lbtn1;
+
+    private float a = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,9 +47,13 @@ public class waterUIon : MonoBehaviour
         }
         if(Wsolve == true)
         {
-            Invoke("WUIOFF", 0f);
-            LHint.gameObject.SetActive(true);
-            Lbtn1.gameObject.SetActive(true);
+            if (a == 0)
+            {
+                Invoke("WUIOFF", 0f);
+                LHint.gameObject.SetActive(true);
+                Lbtn1.gameObject.SetActive(true);
+                a++;
+            }
         }
     }
     public void WUION()
