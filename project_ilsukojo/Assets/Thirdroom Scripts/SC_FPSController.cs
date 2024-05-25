@@ -12,7 +12,7 @@ public class SC_FPSController : MonoBehaviour
     public float gravity = 20.0f;
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
-    public float lookXLimit = 45.0f;
+    public float lookXLimit = 60.0f;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -66,7 +66,7 @@ public class SC_FPSController : MonoBehaviour
         if (canMove)
         {
             rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+            rotationX = Mathf.Clamp(rotationX, -lookXLimit*1.5f, lookXLimit*1.5f);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }

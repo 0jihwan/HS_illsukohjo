@@ -8,6 +8,8 @@ public class R3OpenDoor : MonoBehaviour
     private Animator anim;
     private bool IsAtDoor = false;
 
+    public SC_FPSController controller;
+
     [SerializeField] private TextMeshProUGUI CodeText;
     string codeTextValue = "";
     public string safeCode;
@@ -27,6 +29,10 @@ public class R3OpenDoor : MonoBehaviour
         {
             anim.SetTrigger("OpenDoor");
             CodePanel.SetActive(false);
+
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            controller.canMove = true;
         }
         if(codeTextValue.Length >= 4)
         {
@@ -35,6 +41,18 @@ public class R3OpenDoor : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && IsAtDoor == true)
         {
             CodePanel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            controller.canMove = false;
+ 
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            CodePanel.SetActive(false);
+
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            controller.canMove = true;
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -50,6 +68,10 @@ public class R3OpenDoor : MonoBehaviour
     {
         IsAtDoor=false;
         CodePanel.SetActive(false);
+
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //controller.canMove = true;
     }
 
     public void AddDigit(string digit)

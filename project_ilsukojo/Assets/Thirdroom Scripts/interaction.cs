@@ -23,8 +23,8 @@ public class interaction : MonoBehaviour
                 interactionText.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    Cursor.visible = true;
-                    Cursor.lockState = CursorLockMode.None;
+                    //Cursor.visible = true;
+                    //Cursor.lockState = CursorLockMode.None;
 
                     //playerController.enabled = false;
                     hit.collider.gameObject.GetComponent<letter>().openCloseLetter();
