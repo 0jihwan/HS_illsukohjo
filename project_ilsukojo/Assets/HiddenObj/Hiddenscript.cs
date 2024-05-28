@@ -33,6 +33,7 @@ public class Hiddenscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
@@ -119,5 +120,10 @@ public class Hiddenscript : MonoBehaviour
             hidden04.color = new Color(hidden04.color.r, hidden04.color.g, hidden04.color.b, 175f / 255f);
         else
             hidden04.color = new Color(hidden04.color.r, hidden04.color.g, hidden04.color.b, 0f);
+    }
+
+    public bool AreAllHiddenObjectsFound()
+    {
+        return h1find && h2find && h3find && h4find;
     }
 }

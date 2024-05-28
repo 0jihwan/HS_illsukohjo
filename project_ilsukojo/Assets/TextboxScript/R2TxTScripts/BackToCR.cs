@@ -8,7 +8,7 @@ public class BackToCR : MonoBehaviour
     [SerializeField]
     private YSBPlayerMove playerMove;
 
-    public Transform player;
+    //public Transform player;
     //private string sceneName = "Crossroad";
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)

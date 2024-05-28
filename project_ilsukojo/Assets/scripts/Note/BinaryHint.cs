@@ -8,6 +8,8 @@ public class BinaryHint : MonoBehaviour
     public bool BHUION = false;
     public GameObject cam;
     public GameObject player;
+
+    public bool bhuiononce = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class BinaryHint : MonoBehaviour
         cam.GetComponent<CameraMove>().ANYUION = true;
         player.GetComponent<YSBPlayerMove>().BHintUION = true;
         BHUION = true;
+        bhuiononce = true;
     }
     public void BHintUIOFF()
     {

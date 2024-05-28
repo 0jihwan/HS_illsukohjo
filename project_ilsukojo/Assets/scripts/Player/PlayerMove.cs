@@ -37,6 +37,9 @@ public class YSBPlayerMove : MonoBehaviour
     public GameObject Hint;
     public GameObject UpDown;
     public GameObject PassWord;
+
+    //Flag 모음
+    public bool UDflag = false;
     
 
     // Start is called before the first frame update
@@ -48,11 +51,11 @@ public class YSBPlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Cursor.visible = true;//마우스 포인터 보이기
+        Cursor.visible = true;//마우스 포인터 보이기
         Cursor.lockState = CursorLockMode.Confined;//마우스 화면안에 가두기
         //Cursor.lockState = CursorLockMode.None;//마우스 화면밖 가능
         //Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.visible = false;
 
         if ((!WaterUION)&&(!BHintUION)&&(!UpDownUION)&&(!NHintUION)&&(!LHintUION)&&(!PassWordUION)) {
             //플레이어 움직임
@@ -75,6 +78,10 @@ public class YSBPlayerMove : MonoBehaviour
             yVelocity += (gravity * Time.deltaTime);
             moveDirection.y = yVelocity;
             characterController.Move(moveDirection * Time.deltaTime);
+
+            //추가한 코드
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
         }
 
         //esc키 눌렀을때
@@ -98,11 +105,12 @@ public class YSBPlayerMove : MonoBehaviour
             }
             else if (UpDownUION == true)
             {
-
+                UDflag = true;
                 UpDownUI.gameObject.SetActive(false);
                 gameObject.GetComponentInChildren<CameraMove>().ANYUION = false;
                 UpDownUION = false;
                 UpDown.GetComponent<UpDownUIon>().UDUIon = false;
+                
             }
             else if (NHintUION == true)
             {

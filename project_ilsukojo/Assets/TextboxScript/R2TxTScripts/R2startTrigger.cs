@@ -13,7 +13,7 @@ public class R2startTrigger : MonoBehaviour
     {
         //player = GameObject.FindWithTag("Player");
         timer = 0f;
-        Cursor.visible = false;
+        //Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()

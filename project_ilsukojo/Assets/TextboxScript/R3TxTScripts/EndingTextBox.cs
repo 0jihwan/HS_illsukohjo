@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndingTextBox : MonoBehaviour
 {
@@ -33,13 +34,23 @@ public class EndingTextBox : MonoBehaviour
         }
         // 메시지 예시
         messages = new string[] {
-            "이 사진들은 모두 역사책에서 본 것 같다",
-            "왼쪽 위 부터 차례대로 신미양요, 서희의 외교담판,\n살수대첩, 한산도 대첩인 것 같다. ",
-            "이 그림들이 무슨 의미가 있는 걸까?"
+            "드디어 탈출인 것 같다.\n이 곳을 벗어나면 커피부터 마셔야겠어",
+            "머리를 썼더니 너무 피곤해..\n으으...",
+            "....세요?...........괜찮으세요?\n.....격자 분...",
+            "...목격자 분! 정신이 드세요?",
+            "어..? 여긴...",
+            "휴, 다행입니다.방금 목격자 분\n정신을 차리셨습니다. 법최면 실패입니다.",
+            "목격자 분에게 무리가 갈 수 있으니\n법최면은 여기서 종결해야 할 것 같습니다.",
+            "목격자..? 법최면?? 이게 무슨...",
+            "기억 안나세요?\n살인사건의 유일한 목격자로 소환되셨습니다.",
+            "하지만 기억이 없으셔서 수사에서\n금방 제외되실겁니다.",
+            "아...그렇구나....하하",
+            "그냥, 어째선지\n웃음이 튀어나왔다.",
+            ".......집에 가자."
         };
         who = new string[]
         {
-            "", "최면사", "경찰"
+            "", "", "???", "경찰", "", "경찰", "최면사", "", "경찰", "경찰", "", "", ""
         };
     }
 
@@ -116,7 +127,7 @@ public class EndingTextBox : MonoBehaviour
         }
         else if (!TextBox.activeSelf && isdone)
         {
-            playerMove.canMove = true;
+            SceneManager.LoadScene("0_Start");
             enabled = false;
         }
     }

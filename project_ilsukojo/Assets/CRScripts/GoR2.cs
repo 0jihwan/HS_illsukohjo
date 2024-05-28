@@ -7,6 +7,8 @@ public class GoR2 : MonoBehaviour
 {
     private string sceneName = "Crossroad";
     public Transform player;
+
+    public bool r3Activated = false;
     void Start()
     {
         if(IsFirstEntry()) gameObject.SetActive(true);
@@ -14,6 +16,7 @@ public class GoR2 : MonoBehaviour
         {
             gameObject.SetActive(false);
             //ClearPlayerPrefs();
+            r3Activated = true;
         }
 
     }

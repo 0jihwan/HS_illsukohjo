@@ -9,6 +9,9 @@ public class UpDownUIon : MonoBehaviour
     public GameObject cam;
     public GameObject player;
     public bool UDsolve = false;
+
+    public bool flag = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +32,7 @@ public class UpDownUIon : MonoBehaviour
     }
     public void WUIOFF()
     {
+        flag = true;
         UpDownUI.gameObject.SetActive(false);
         UDUIon = false;
         cam.GetComponent<CameraMove>().ANYUION = false;

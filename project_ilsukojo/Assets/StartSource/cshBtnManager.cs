@@ -30,6 +30,7 @@ public class cshBtnManager : MonoBehaviour
     {
         if (!isButtonPressed)
         {
+            PlayerPrefs.DeleteAll();//수집품 데이터 초기화
             isButtonPressed = true;
             timer = 0f;
         }

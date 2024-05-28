@@ -16,8 +16,7 @@ public class CRstartTrigger : MonoBehaviour
     private PlayerMove playerMove;
     void Start()
     {
-        PlayerPrefs.DeleteAll();
-        //ClearPlayerPrefs();
+        //PlayerPrefs.DeleteAll();
         LoadPlayerPosition();
         if (IsFirstEntry())
         {
