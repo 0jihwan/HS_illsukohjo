@@ -11,6 +11,14 @@ public class CPUTrigger : MonoBehaviour
         //Cursor.visible = false;
         //Cursor.lockState = CursorLockMode.Locked;
     }
+    private void Update()
+    {
+        if(CPUTextBox.Instance.isdone == true)
+        {
+            playerMove.canMove = true;
+            gameObject.SetActive(false);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -21,7 +29,7 @@ public class CPUTrigger : MonoBehaviour
             CPUTextBox.Instance.PlayText();
             playerMove.canMove = false;
 
-            gameObject.SetActive(false);
+
 
 
         }

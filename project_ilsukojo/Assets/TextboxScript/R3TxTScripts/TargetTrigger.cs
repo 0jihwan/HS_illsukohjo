@@ -11,7 +11,17 @@ public class TargetTrigger : MonoBehaviour
         //Cursor.visible = false;
         //Cursor.lockState = CursorLockMode.Locked;
     }
-    private void OnTriggerEnter(Collider other)
+    private void Update()
+    {
+        if (TargetTextBox.Instance.isdone == true)
+        {
+            playerMove.canMove = true;
+            gameObject.SetActive(false);
+            //enabled = false;    //Update 루프 중단
+        }
+    }
+
+private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -21,7 +31,6 @@ public class TargetTrigger : MonoBehaviour
             TargetTextBox.Instance.PlayText();
             playerMove.canMove = false;
 
-            gameObject.SetActive(false);
 
 
         }

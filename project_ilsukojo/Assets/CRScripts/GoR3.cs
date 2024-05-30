@@ -8,7 +8,7 @@ public class GoR3 : MonoBehaviour
     public GoR2 gor2;
     void Start()
     {
-        gameObject.SetActive(false);
+        
     }
     void Update()
     {
@@ -16,6 +16,7 @@ public class GoR3 : MonoBehaviour
         {
             gameObject.SetActive(true);
         }
+        else gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)

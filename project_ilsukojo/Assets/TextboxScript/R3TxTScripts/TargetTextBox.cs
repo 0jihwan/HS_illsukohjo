@@ -31,8 +31,8 @@ public class TargetTextBox : MonoBehaviour
         }
         // 메시지 예시
         messages = new string[] {
-            "갑자기 웬 다트판이지?\n하지만 다트가 없는데",
-            "다트판 앞에서, 방금, 깨달았다. 이 방에 들어오고부터\n내 손에는 칼이 쥐어져 있었다.",
+            "갑자기 웬 다트판이지?\n하지만 다트가 없는데...",
+            "다트판 앞에서, 방금, 깨달았다. 이 방에 들어오고\n내 손에는 칼이 쥐어져 있었다.",
             ".......\n다트판에 꽂을 게 없으니, 일단 이거라도 꽂아보자."
         };
     }
@@ -107,7 +107,7 @@ public class TargetTextBox : MonoBehaviour
         }
         else if (!TextBox.activeSelf && isdone)
         {
-            playerMove.canMove = false;
+            //playerMove.canMove = false;
             enabled = false;
         }
     }

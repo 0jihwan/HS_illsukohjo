@@ -15,6 +15,8 @@ public class cshFadeController : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         startpanel = startobject.GetComponent<Image>();
         if (isFadeIn)
         {

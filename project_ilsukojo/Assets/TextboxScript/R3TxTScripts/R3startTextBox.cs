@@ -106,7 +106,7 @@ public class R3startTextBox : MonoBehaviour
         }
         else if (!TextBox.activeSelf && isdone)
         {
-            playerMove.canMove = false;
+            //playerMove.canMove = false;
             enabled = false;
         }
     }

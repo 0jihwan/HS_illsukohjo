@@ -107,7 +107,7 @@ public class CPUTextBox : MonoBehaviour
         }
         else if (!TextBox.activeSelf && isdone)
         {
-            playerMove.canMove = false;
+            //playerMove.canMove = false;
             enabled = false;
         }
     }

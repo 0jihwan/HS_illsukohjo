@@ -32,9 +32,9 @@ public class deskTextBox : MonoBehaviour
         // 메시지 예시
         messages = new string[] {
             "트럼프 카드?\n포커 중이었나?",
-            "포커라고 하기엔 카드 배치가 이상하다.\n특히 숫자가 아닌 킹, 퀸, 잭 카드만 숫자 사이에 있는 느낌..",
+            "포커라고 하기엔 카드 배치가 이상하다.특히\n숫자가 아닌 킹, 퀸, 잭 카드만 숫자 사이에 있는 느낌..",
             "세 카드만 숫자가 아닌 다른 역할을 하는 건가?\n좀 더 단순하게 생각해보자.",
-            "숫자 카드와 숫자가 아닌 카드를 분리해서 보는 것도 방법일 것 같다."
+            "숫자 카드와 숫자가 아닌 카드를 분리해서\n보는 것도 방법일 것 같다."
         };
     }
 
@@ -108,7 +108,7 @@ public class deskTextBox : MonoBehaviour
         }
         else if (!TextBox.activeSelf && isdone)
         {
-            playerMove.canMove = false;
+            //playerMove.canMove = false;
             enabled = false;
         }
     }

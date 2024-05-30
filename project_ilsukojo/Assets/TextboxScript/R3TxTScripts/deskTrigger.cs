@@ -11,6 +11,14 @@ public class deskTrigger : MonoBehaviour
         //Cursor.visible = false;
         //Cursor.lockState = CursorLockMode.Locked;
     }
+    private void Update()
+    {
+        if (deskTextBox.Instance.isdone == true)
+        {
+            playerMove.canMove = true;
+            gameObject.SetActive(false);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -20,8 +28,6 @@ public class deskTrigger : MonoBehaviour
             //Debug.Log("Event triggered!");
             deskTextBox.Instance.PlayText();
             playerMove.canMove = false;
-
-            gameObject.SetActive(false);
 
 
         }
